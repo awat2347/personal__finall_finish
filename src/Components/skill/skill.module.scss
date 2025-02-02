@@ -1,0 +1,60 @@
+.wrapper{
+    margin-top: 81px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+
+.skills{
+    display: flex;
+    color: #F8D600;
+    align-items: center;
+    gap: 16px;
+    span{
+        width: 101px;
+        height: 1px;
+        background-color: #F8D600;
+    }
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    
+   
+    div{
+        display: flex;
+        gap: 20px;
+        color: rgb(212, 212, 212);
+        span{
+            h1{
+                color: #25B81D;
+            }
+        }
+        h1{
+            font-size: clamp(1.125rem, 0.273rem + 3.64vw, 3rem);
+        }
+    }
+}
+.Vs_code{
+    color: white    ;
+    @media (max-width: 375px) {
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+    }
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    img{
+        width: 100%;
+    }
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}

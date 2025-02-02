@@ -1,0 +1,84 @@
+.wrapper{
+    margin-top: 81px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+
+
+.My_projects{
+    display: flex;
+    color: #F8D600;
+    align-items: center;
+    gap: 16px;
+    span{
+        width: 101px;
+        height: 1px;
+        background-color: #F8D600;
+    }
+}
+
+.text{
+    display: flex;
+    gap: 20px;
+    h1{
+        font-size: clamp(1.125rem, 0.273rem + 3.64vw, 3rem);
+        color: white;
+    }
+    span{
+        h1{
+            color: #25B81D;
+        }
+    }
+}
+
+.cards{
+    @media (max-width: 375px) {
+      justify-content: center;
+      align-items: center;
+    }
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.Showcase{
+    @media (max-width: 375px) {
+      display: grid;
+      grid-template-columns: 1fr;
+    
+    }
+    display: grid;
+    gap: 32px;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.card{
+    background-color: rgba(43, 43, 43, 0.521);
+    padding: 15px;
+    border-radius: 20px 0 20px 0;
+    color: white;
+    img{
+        width: 100%;
+        object-fit: cover;
+    }
+    width: clamp(10.5rem, 7.886rem + 11.15vw, 16.25rem);
+}
+
+.links{
+    display: flex;
+    gap: 20px;
+    img{
+        width: 12px;
+        height: 12px;
+    }
+
+    div{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        a{
+            color: #25B81D;
+        }
+    }
+}

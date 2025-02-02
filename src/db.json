@@ -1,0 +1,29 @@
+{
+  "projects": [
+    {
+      "id": "1",
+      "title": "cuber-teca",
+      "description": "this project was made for a gaming club...",
+      "liveLink": "https://cuber-teca-final.vercel.app/",
+      "codeLink": "",
+      "image": "/cuber-teca.jpg"
+    },
+    {
+      "id": "2",
+      "title": "shibuya",
+      "description": "this project is made in the theme of html css js...",
+      "liveLink": "https://shibuya-eosin.vercel.app",
+      "codeLink": "https://github.com/awat2347/shibuya",
+      "image": "/shibuya.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Shop.co",
+      "description": "this project is made like a clothing store...",
+      "liveLink": "https://shopcogfchgf.vercel.app/",
+      "codeLink": "",
+      "image": "/Shop.co.jpg"
+    }
+    
+  ]
+}
