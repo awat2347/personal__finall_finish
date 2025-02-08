@@ -36,8 +36,7 @@ const Header = () => {
           {/* Ссылки */}
           <div
             className={`${s.link} ${menuOpen ? s.active : ""}`}
-            data-aos="fade-left"
-            data-aos-delay="200"
+         
           >
             <Link to={"/"}> Home </Link>
             <a href="#About">About</a>
@@ -53,8 +52,7 @@ const Header = () => {
           <div
             className={s.burger}
             onClick={toggleMenu}
-            data-aos="fade-down"
-            data-aos-delay="400"
+            
           >
             <span className={menuOpen ? s.open : ""}></span>
             <span className={menuOpen ? s.open : ""}></span>

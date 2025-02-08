@@ -1,7 +1,12 @@
 body {
   margin: 0;
   height: 100vh;
-  cursor: none; // Убираем стандартный курсор
+  cursor: none; 
+ 
+    @media (max-width: 400px) {
+     cursor: none;
+    }
+  
 }
 
 .custom-cursor {
@@ -14,4 +19,8 @@ body {
   pointer-events: none; /* Курсор не блокирует взаимодействие */
   background: url("/free-icon-cursor-17953612.png") no-repeat center;
   background-size: contain; /* Изображение не обрезается */
+  @media (max-width: 400px) {
+    cursor: none;
+    background: none;
+   }
 }
