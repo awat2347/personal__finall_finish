@@ -24,7 +24,7 @@ const About = () => {
               <h1 data-aos="fade-up">
                 I am <span>Chingiz</span>
               </h1>
-              <h4 data-aos="fade-up" data-aos-delay="200">
+              <h4>
                 I'm a Front-End Developer with a passion for crafting engaging and intuitive user interfaces. Specializing in modern web technologies and frameworks, I focus on creating seamless, responsive, and visually appealing designs that enhance user experiences. With a strong eye for detail and a dedication to clean, efficient code, I thrive on turning creative ideas into functional and interactive solutions. I'm committed to continuous learning, staying at the forefront of industry trends, and collaborating with teams to deliver top-notch digital experiences. Let’s work together to bring your vision to life!
               </h4>
             </div>
